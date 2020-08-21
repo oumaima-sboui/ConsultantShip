@@ -1,0 +1,173 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: rgba(0, 0, 0, .65) url("./assets/img/scott.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+      background-size: cover;  
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-blend-mode: darken;
+      position : fixed ;
+}
+
+input.form-control,input.form-control:focus{
+    background-color: black;
+    color: #fff;
+    border-bottom: 0.5px solid #F13F41 ;
+    border-top : black ;
+    border-left : black ;
+    border-right : black ;
+    background-size: 2%;
+
+}
+#logo{
+
+
+position: absolute;
+width: 220px;
+height: 141px;}
+
+#titre{
+position: absolute;
+width: 442px;
+height: 269px;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 84px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+margin-top: 10% ;
+
+
+color: rgba(255, 255, 255, 0.89);}
+
+#premier {
+    position: absolute;
+    width: 356px;
+    height: 118px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top : 0% ;
+    padding-left : 10% ;
+    
+    color: rgba(255, 255, 255, 0.89);
+
+}
+#second{
+margin-top : 0% ;
+margin-right: 20%;
+position: absolute;
+width: 356px;
+height: 118px;
+padding-left : 5% ;
+
+font-family: Titillium Web;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 61px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: #F13F41;}
+
+input.form-control:focus{
+    box-shadow: none;
+}
+
+button[type=submit].btn{
+    border: 1px #F13F41 solid;
+    background-color: black;
+    
+    color: #F13F41 ;
+}
+
+div.form-group label:not(.text-danger){
+    color:white;
+    font-weight: 700;
+}
+
+div.form-group.required>label:first-child:after{
+    content:'*';
+    color: #fff;
+    padding-left: 5px;
+}
+
+#toast-container > div {
+    opacity:0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: left ;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .wrapped-div {
+    
+    border: 10px solid;
+    background: black;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    position: relative ;
+    padding: 0px;
+    margin-top: 0%;
+    margin-left: 60%;
+    margin-bottom: 10%;
+  }
+
+  /* Tabs */
+.tab-header{
+    text-align: center;
+}
+
+  .tab-header h2.active {
+    color: #fff;
+    border-bottom: 4px solid #fff;
+  }
+
+  .tab-header h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    display:inline-block;
+    padding: 30px 40px 10px 40px;
+    cursor: pointer;
+    color: #545d6a;
+    border-bottom: 2px solid #545d6a;
+  }
+
+  .tab-header h2:focus {
+      outline: none;
+  }
+
+  form{
+      margin: 0px 10px;
+  }
+
+ div.form-group input.invalid{
+    border: 1px solid #dc3545; 
+ }
+ div.form-group label:first-child{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+ }
